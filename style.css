@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    height:100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 80%;
+
+    background-color: hsl(221, 100%, 96%);
+
+    font-family: "Hanken Grotesk";
+}
+
+.P-div{
+    background-color: hsl(0, 0%, 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    border-radius: 20px;
+
+    width: 510px;
+}
+
+.Y-Result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+
+    width: 250px;
+    height: 330px;
+
+    border-radius: 20px;
+    border: 1px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.p-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 120px;
+    height: 120px;
+
+    border-radius: 100px;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: 700;
+
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.t-score{
+    color: rgb(180, 179, 179);
+    font-size: 10px;
+}
+
+.Assessment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1px;
+
+}
+
+h3{
+    color: white;
+}
+
+p{
+    font-size: 12px;
+    width:170px;
+    color:rgb(180, 179, 179);
+
+    transform: translateY(-10px);
+}
+
+img{
+    width: 15px;
+    height: auto;
+}
+
+.Summary{
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+    width: 250px;
+    height: 330px;
+
+    position: relative;
+    z-index: 0;
+    
+    border-radius: 20px;
+
+    border: 1px;
+    margin-left:15px ;
+
+    transform: translateY(-20px);
+
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    align-self: center;
+    font-size: 18px;
+    color: rgb(180, 179, 179);
+    
+    transform: translateY();
+}
+
+li{
+    width: 180px;
+    height: 35px;
+
+    background-color: aqua;
+
+    margin: 15px;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Spec-Score{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+
+.Logo-Index{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+}
+
+h4{
+    transform: translateY(35px);
+    color: black;
+}
+
+#li-1{
+    color:hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%,0.1);
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+#li-2{
+    color:hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%,0.1);
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+#li-3{
+    color:hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%,0.1);
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+#li-4{
+    color:hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%,0.1);
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.Full-Score{
+    color: rgb(180, 179, 179);
+    font-weight: 600;
+}
+
+.ct-btn{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    font-size: 16px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+button{
+    border: none;
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    color:rgb(180, 179, 179);
+}
